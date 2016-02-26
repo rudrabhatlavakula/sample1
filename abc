@@ -1,0 +1,10 @@
+
+<html>
+<head></head>
+<body>
+<video width="500" height="500" preload="auto"  autoplay controls>
+   <source src="D:\New folder\demo.mp4\" type="video/mp4" > 
+</video>
+
+</body>
+</html>
