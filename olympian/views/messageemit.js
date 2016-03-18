@@ -1,0 +1,14 @@
+var util=require('util');
+var EventEmitter=require('events').EventEmitter;
+function Message(){
+var self=this;
+setTimeout(function(){
+self.emit('begin');
+self.emit('message','node.js');
+self.emit('message','express.js');
+self.emit('end','2');
+},50000);
+};
+util.inherits(Message,EventEmitter);
+module.exports=Message;
+

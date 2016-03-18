@@ -1,0 +1,78 @@
+#header {
+    width: 1350px;
+    height: 100px;
+	background-color: green;
+    }
+#img{
+	width: 500px;
+	height: 100px;
+	
+}
+#menu
+{
+    list-style: none;
+   
+    background-color: green;
+	padding: 24px 16px;
+    margin: 0;
+	
+		
+}
+ #menu ul
+{
+	list-style: none;
+    border: 0px solid #000;
+background-color: green;
+
+   padding: 24px 16px;
+    margin: 100;
+ 
+	
+		
+}
+#menu li
+{
+    float: left;
+    margin-right: 3px;
+    border: green;
+    position: relative;
+}
+#menu ul
+{
+    position: absolute;
+    top: 25px;
+    left: -1px;
+    width: 200px;
+    padding: 0;
+    display: none;
+}
+#menu ul li
+{
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+}
+#menu a:link, #menu a:visited
+{
+ 
+    font-family: Tahoma;
+    
+    text-align: left;
+  
+    color: white;
+    padding: 5px;
+
+
+}
+#menu li:hover
+{
+    background-color: gray;
+    border: 1px solid #000;
+}
+#menu li:hover ul
+{
+    display: block;
+}
+
+
